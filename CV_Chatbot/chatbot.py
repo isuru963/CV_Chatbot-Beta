@@ -1,4 +1,5 @@
 
+import streamlit as st
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from cv_data import cv_data  # Importing the CV data
 
